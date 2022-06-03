@@ -1,0 +1,77 @@
+.firstdiv{
+    width:200px;
+	height:100px;
+	/*background-color:rgba(167,49,127,1.00);*/
+	background:rgba(57,72,127,1.00);
+	color:blue;
+	font-size:20px;
+}
+.secdiv{
+	width:500px;
+	height:500px;
+	/*background-color:orange;*/
+	background-image:url("../img/cover/cat1.jpg");
+	/*background: url('../img/cover/jiho.jpg');*/
+	background-repeat:no-repeat;
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	background-position: center;
+
+
+	/*border:2px;
+	border-style: solid;
+	border-color:red;
+*/
+/*short hand*/
+       /*stoke  style   color*/ 
+border:5px      solid   green;
+
+  color:white;
+}
+
+.div3{
+	width:300px;
+	height:300px;
+	border:3px solid red;
+	color:white;
+/*	background:linear-gradient(red,orange,blue,green);
+*/
+	/*background-image:linear-gradient(red,orange,blue,green);*/
+/*	background:linear-gradient(rgba(190,236,127,1.00),rgba(32,39,127,1.00))
+*/
+/*    background:linear-gradient (
+     90deg,  
+     red,
+     orange,
+     green
+
+     );
+*/
+/*    background:radial-gradient(rgba(198,45,127,0.5),rgba(44,212,127,1.0)),url('../img/cover/jiho.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+*/
+/*
+    background:linear-gradient(
+    	red 70%,
+    	green 30%
+    	);*/
+
+    background:linear-gradient(
+    	45deg,
+    	red 20%,
+    	green 0% 70%,
+    	blue 30%);
+}
+
+.div4{
+	width: 200px;
+	height:300px;
+
+	color:white;
+
+	background:linear-gradient( 45deg,rgba(198,45,127,0.5),rgba(44,212,127,0.5)),url('../img/cover/jiho.jpg');
+	background-repeat:no-repeat;
+
+}

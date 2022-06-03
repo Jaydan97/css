@@ -1,0 +1,109 @@
+/*Universal selector*/
+*{
+	cursor:pointer;
+}
+.borderstyle1{
+	border-style: solid;
+}
+
+.borderstyle2{
+	border-style: dotted;
+}
+.borderstyle3{
+	border-style: dashed;
+}
+.borderstyle4{
+	border-style: double;
+}
+
+.borderstyle5{
+	border-style: inset;
+}
+
+.borderstyle6{
+	border-style: outset;
+}
+
+.bddesign{
+	width: 200px;
+    height: 200px;
+	background-color:red;
+	
+	/*short hand*/
+	/*border-radius: 50%;*/
+					/*all angle*/ 
+/*	border-radius: 20px;
+*/
+					/*top&bottom left&right*/
+	/*border-radius: 10px 50px;*/
+	/*border-radius: 10px 10px 80px 80px;*/
+
+	border-top-left-radius: 80px;
+	border-top-right-radius: 30px;
+
+	cursor:pointer;
+}
+
+li{
+	/*list-style:square;*/
+	/*list-style:circle;*/
+	/*list-style:none;*/
+	/*list-style: none;*/
+
+	/*list-style-type: decimal;*/
+	list-style: decimal-leading-zero;
+
+ 	/*border:1px solid red;*/
+
+ 	border:2px;
+ 	border-style: solid;
+ 	border-color: black;
+
+ 	/*list-style-position: inside;*/
+ 	list-style-position: outside;
+ }
+
+/* ul{
+ 	list-style: decimal-leading-zero;
+
+ 	border:1px;
+ 	border-style: solid;
+ 	border-color: black;
+ 	list-style-position: outside;
+ }
+*/
+ 	/* Attribute selector */
+ input[type="text"],input[type="number"]{
+ 	width:300px;
+ 	background-color:green;
+ 	color:#fff;
+ 	border-radius: 20px;
+ }
+
+
+ input[type="email"]{
+ 	width:300px;
+ 	background-color: red;
+ 	color:#fff;
+ 	border-radius:20px;
+ }
+
+ body{
+ 	background-image:url('../img/fav/favicon.jpg');
+ 	background-repeat:no-repeat;
+
+
+    /*background-position:center;*/
+    /*background-position: right;*/
+    /*background-position: left;*/
+    /*background-position: top;*/
+    /*background-position: bottom;*/
+    /*background-position: right top;*/
+    /*background-position: left top;*/
+    /*background-position: right bottom;*/
+    background-position: left bottom;
+ }
+ 
+
+
+

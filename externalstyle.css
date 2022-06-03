@@ -1,0 +1,41 @@
+/*Element Selector*/
+/*single selector*/
+h1{
+	color:blue;
+}
+/*Group Selector*/
+h2,h3,h4{
+	color:green;
+}
+/*#myself{
+	color:red;
+}
+#sakasa{
+	color:yellow;
+}
+*/
+#myself,#sakasa,span{
+	color:red;
+}
+
+.ph{
+	color:orange;}
+
+.f30{
+	font-size: 30px;
+
+}
+.phone{
+	color:red;
+}
+
+.hi{
+	color:red;
+}
+
+.hay{
+	color:blue;
+	font-size:20px;
+}
+/*.ph,phone{
+color:green}*/
